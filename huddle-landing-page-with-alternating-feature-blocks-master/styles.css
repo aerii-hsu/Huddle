@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.herosection{
+    background-color: hsl(193, 100%, 96%);
+    width: 100vw;
+    height: 695px;
+    background-image: url("./images/bg-hero-desktop.svg");
+}
+.nav{
+    /* background-color: pink; */
+    width: 100vw;
+    padding: 45px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-button{
+    background-color: white;
+    border-radius: 30px;
+    width: 185px;
+    border: 0;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 5px 5px 5px rgb(197, 194, 194);
+}
+.herosection-txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 60px;
+}
+.txt{
+    /* background-color: aquamarine; */
+    width: 550px;
+    height: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.txt-img{
+    /* background-color: pink; */
+    width: 550px;
+    height: 400px;
+}
+.hs-button{
+    padding: 20px;
+}
+.txt-button{
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    border: 0;
+    color: white;
+}
+.hs-img{
+    width: 100%;
+}
